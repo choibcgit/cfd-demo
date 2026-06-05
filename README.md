@@ -17,9 +17,15 @@ Analysis results are stored in:
 - `cfd_analysis_results.json`
 - `cfd_analysis_results_2.json`
 
+## Requirements
+
+- Node.js 18+
+- MATLAB (for `.m` scripts)
+
 ## Usage
 
 ```bash
-node cfd_full_analysis.js
-node analyze_cfd.js
+npm install
+npm start        # runs cfd_full_analysis.js
+npm run analyze  # runs analyze_cfd.js
 ```
