@@ -1,6 +1,20 @@
 node_modules/
+
+# 생성 파일 (파이프라인 출력)
 *.zip
 *.png
 *.docx
 *.xlsx
 *.pdf
+
+# 도구 내부 파일
+.claude/
+
+# Python 가상환경 / 캐시
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# MATLAB 자동 생성 파일
+*.asv
